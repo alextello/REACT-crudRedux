@@ -1,0 +1,22 @@
+import React, { Fragment } from 'react';
+
+const Productos = () => {
+    return (
+        <Fragment>
+            <h2 className="text-center my-5">Listado de productos</h2>
+            <table class="table table-stripped">
+                <thead className="bg-primary table-dark">
+                    <tr>
+                        <th scope="col">Nombre</th>
+                        <th scope="col">Precios</th>
+                        <th scope="col">Acciones</th>
+                    </tr>
+                </thead>
+                <tbody>
+                </tbody>
+            </table>
+        </Fragment>
+    );
+}
+
+export default Productos;
