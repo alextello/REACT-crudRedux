@@ -8,12 +8,12 @@ const EditarProducto = () => {
                     <div className="card-body">
                         <h2 className="text-center mb-4 font-weight-bold">Editar producto</h2>
                         <form>
-                            <div class="form-group">
-                                <label for="">Nombre Producto</label>
+                            <div className="form-group">
+                                <label htmlFor="">Nombre Producto</label>
                                 <input name="nombre" type="text" className="form-control" />
                             </div>
-                            <div class="form-group">
-                                <label for="">Precio Producto</label>
+                            <div className="form-group">
+                                <label htmlFor="">Precio Producto</label>
                                 <input name="precio" type="number" className="form-control" />
                             </div>
                             <input
