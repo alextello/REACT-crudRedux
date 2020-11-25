@@ -4,7 +4,7 @@ const Productos = () => {
     return (
         <Fragment>
             <h2 className="text-center my-5">Listado de productos</h2>
-            <table class="table table-stripped">
+            <table className="table table-stripped">
                 <thead className="bg-primary table-dark">
                     <tr>
                         <th scope="col">Nombre</th>
