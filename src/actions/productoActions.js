@@ -22,9 +22,9 @@ export function crearNuevoProductoAction(producto) {
         dispatch(agregarProducto());
         try {
             // insertar en API
-            await clienteAxios.post('productos', producto);
+            const res = await clienteAxios.post('productos', producto);
             // si todo sale bien, actualiza el state
-            dispatch(agregarProductoExito(producto));
+            dispatch(agregarProductoExito(res.data));
             Swal.fire({
                 icon: 'success',
                 title: 'Correcto',
